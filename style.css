@@ -1,0 +1,155 @@
+@font-face {
+    font-family: poppins;
+    src: url(./Poppins-Black.ttf);
+}
+
+.body, html{
+    margin: 0px;
+}
+
+.BGImage{
+    position: absolute;
+    z-index: -100;
+    margin-top: -1.5vh;
+    margin-left:88.55vh;
+
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: poppins;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    height: 80vh ;
+    width: inherit;
+    
+}
+.leftSide h1{
+    font-weight: 1000;
+    font-size: 40px;
+}
+
+
+.leftSide{
+    height: 60vh;
+    width:38%;
+    margin-top: 35vh;
+    margin-left: 20vh;
+    font-size: 20px;
+    
+}
+
+.rightSide{
+    display: flex;
+    flex-direction: row;
+    margin-top: -6vh;
+    margin-right: 10vh;
+    
+    width: 52%;
+}
+.leftSide h3,p,button {
+    margin: 10px 0px;
+}
+
+#GSButton{
+    height: 40px;
+    width: 160px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 550;
+    background-color:rgb(112, 55, 187);
+    color: white
+
+}
+
+#GSButton:hover{
+    background-color:rgb(63, 62, 62);
+
+}
+
+.navBar{
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20%;
+    
+    
+    
+}
+
+.smallButtons{
+    margin-right: 15vh;
+    margin-left: 3vh;
+
+    
+}
+
+.smallButton{
+    margin-top: 4vh;
+    margin-left: 8px;
+    outline: none;
+    background: transparent;
+    border: none;
+    color: white;
+    font-weight: 200;
+    opacity: 80%;
+    font-size: 15px;
+    
+    
+}
+
+.smallButton:hover{
+    color: rgb(36, 15, 65);
+}
+
+.bigButton{
+    height: 45px;
+    width: 90px;
+    display: inline;
+    background: transparent;
+    margin-right: 8px;
+    border-color: whitesmoke;
+    border-width: 2px solid;
+    border-radius: 4px;
+    font-weight: 700;
+    color:white
+
+}
+#signUp{
+    background-color:rgb(63, 62, 62);
+    border: none;
+    color: white;
+}
+
+#signUp:hover{
+    background-color:rgb(72, 29, 128);
+    border-width: 2px;
+    border-color: white;
+
+}
+
+ .bigButton:hover{
+    background-color:rgb(63, 62, 62);
+     color: white;
+     border: none;
+ }
+
+ #picture1{
+     position: absolute;
+     margin-top: 20vh;
+     margin-right: 100vh;
+ }
+ 
+ #playSign{
+     position: absolute;
+     margin-top: 48vh;
+     margin-left: 34vh;
+     height: 120px;
+     color: white;
+
+ }
