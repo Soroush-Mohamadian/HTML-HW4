@@ -1,6 +1,6 @@
 @font-face {
     font-family: poppins;
-    src: url(./Poppins-Black.ttf);
+    src: url(./Poppins-Bold.ttf);
 }
 
 .body, html{
@@ -25,7 +25,7 @@
     display: flex;
     flex-direction: row;
     height: 80vh ;
-    width: inherit;
+    width: 100vw;
     
 }
 .leftSide h1{
@@ -55,7 +55,7 @@
     margin: 10px 0px;
 }
 
-#GSButton{
+#button{
     height: 40px;
     width: 160px;
     border-radius: 5px;
@@ -66,7 +66,7 @@
 
 }
 
-#GSButton:hover{
+#button:hover{
     background-color:rgb(63, 62, 62);
 
 }
@@ -153,3 +153,88 @@
      color: white;
 
  }
+
+.part2{
+    
+    margin-top: 30vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+ .border{
+    height: 60px;
+    width: 60x;
+    border: yellow;
+    
+    
+}
+
+
+
+.border img{
+    width: 50px;
+    
+}
+
+.part3{
+    margin: 26vh 0vh 10vh 20vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.rightSideBox{
+    margin-left: 15vh;
+    margin-top: 7vh;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.rightSideBox h1{
+    margin-bottom: 6vh;
+    font-weight: 1000;
+}
+.line {
+    display: flex;
+    flex-direction: row;
+}
+
+.line p{
+    margin-left: 2vh;
+}
+
+.buttons{
+    margin-top: 10vh;
+}
+#watchVideo{
+    height: 40px;
+    width: 160px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 550;
+    color:rgb(112, 55, 187);
+    
+}
+#watchVideo:hover{
+    background-color: rgb(112, 55, 187);
+    border-radius: 5px;
+    color: white;
+}
+.buttons img{
+    width: 35px;
+    position: absolute;
+    padding-top: 1.5vh;
+}
+
+.text1{
+    margin-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text1 h1{
+    font-weight: 5000;
+}
